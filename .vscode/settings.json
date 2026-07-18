@@ -1,0 +1,9 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^ollama run qwen3:8b --prompt \"Hi\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "ollama": true
+    }
+}
