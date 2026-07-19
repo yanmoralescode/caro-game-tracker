@@ -328,7 +328,7 @@ Figma
 
 ## Phase 2
 
-Frontend - Vanilla HTML, CSS
+Frontend
 
 Responsive Layout
 
@@ -337,8 +337,6 @@ Components
 ---
 
 ## Phase 3
-
-JavaScript
 
 CRUD
 
