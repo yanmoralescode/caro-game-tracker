@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="GameTrack logo">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5D4" />
+      <stop offset="100%" stop-color="#00B894" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="#0f172a" />
+  <path d="M40 44h16v16H40zM72 44h16v16H72zM40 76h48v8H40z" fill="url(#g)" />
+  <circle cx="48" cy="52" r="6" fill="#fff" />
+  <circle cx="80" cy="52" r="6" fill="#fff" />
+</svg>

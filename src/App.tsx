@@ -210,10 +210,12 @@ const FL = ({ children }: { children: React.ReactNode }) => (
 
 function Logo({ size = 28, showText = true }: { size?: number; showText?: boolean }) {
   const [err, setErr] = useState(false)
+  const logoSrc = `${import.meta.env.BASE_URL}logo.svg`
+
   return (
     <div className="flex items-center gap-2">
       {!err ? (
-        <img src="/logo.png" alt="GameTrack" style={{ width: size, height: size, objectFit: 'contain' }} onError={() => setErr(true)} />
+        <img src={logoSrc} alt="GameTrack" style={{ width: size, height: size, objectFit: 'contain' }} onError={() => setErr(true)} />
       ) : (
         <div className="rounded-lg flex items-center justify-center font-black text-black"
           style={{ width: size, height: size, background: 'linear-gradient(135deg,#00F5D4,#00B894)', fontFamily:"'Exo 2',sans-serif", fontSize: size * 0.45 }}
